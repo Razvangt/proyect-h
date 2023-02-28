@@ -21,4 +21,4 @@ dev = [
 [dependencies]
 bevy = {version = "0.9.1"}
 bevy_editor_pls = {git = "https://github.com/PhaestusFox/bevy_editor_pls"}
-bevy_rapier3d = "0.20.0"
+bevy_rapier3d = { version = "0.20.0", features = [ "simd-stable", "debug-render" ] }

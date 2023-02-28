@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        {
+            "type": "cargo",
+            "name": "check",
+            "cargoArgs": [
+                "check"
+            ],
+        },
+
+    ]
+}
